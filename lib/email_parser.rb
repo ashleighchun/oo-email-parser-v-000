@@ -18,7 +18,7 @@ attr_accessor :emails
   
   def parse
     x = @emails.split(", ")
-  #binding.pry
+  binding.pry
     x
 
   end 
