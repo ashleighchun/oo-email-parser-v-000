@@ -19,9 +19,7 @@ attr_accessor :emails
   def parse
     x = @emails.delete(",")
     x = @emails.split(" ")
- 
 
-  binding.pry
     x
 
   end 
